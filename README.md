@@ -6,7 +6,7 @@ Script to find the best harvest (and put back) interval for VVS Finance.
 
 <img src="https://raw.githubusercontent.com/eric19960304/vvs-finance-profit-simulator/main/demo/8000_2300.png">
 
-Which means if you invest 8K USD in [VVS Finance](https://vvs.finance/farms), and the current APR for VVS-USDC are 2300%, then it is best to harvest the earning every 439 minutes, and swap half of the harvested earning to USDC via [Swap](https://vvs.finance/swap), convert them to LP tokens, and stake them back to the pool. In this way, you will earn around 4311.83 USD after 1 week!
+Which means if you invest 8K USD in [VVS Finance](https://vvs.finance/farms), and the current APR for VVS-USDC are 2300%, then it is best to harvest the earning every 439 minutes, and [swap](https://vvs.finance/swap) half of the harvested earning to USDC, [convert](https://vvs.finance/add) them to LP tokens, and stake them back to the pool in the [farm](https://vvs.finance/farms). In this way, you will earn around 4311.83 USD after 1 week!
 
 ## How to use
 
