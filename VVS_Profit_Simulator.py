@@ -54,7 +54,7 @@ for interval in range(60, 4000, 1):
             init_capital=INITIAL_CAPITAL, 
             apr=APR_PERCENTAGE/100.0, 
             reinvest_interval=interval))
-for t in range(24*60*7): # simulate one week
+for t in range(24*60*7): # simulate 1 week
     for s in simulators:
         s.tick()
 earnings = list(map(
