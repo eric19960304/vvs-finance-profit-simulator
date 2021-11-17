@@ -16,3 +16,11 @@ Which means if you invest 8K USD in [VVS Finance](https://vvs.finance/farms), an
 pip install -r requirements.txt
 python VVS_Profit_Simulator.py
 ```
+
+## Other examples
+
+<img src="https://raw.githubusercontent.com/eric19960304/vvs-finance-profit-simulator/main/demo/1000_2300.png">
+
+<img src="https://raw.githubusercontent.com/eric19960304/vvs-finance-profit-simulator/main/demo/3000_2300.png">
+
+<img src="https://raw.githubusercontent.com/eric19960304/vvs-finance-profit-simulator/main/demo/16000_2300.png">
