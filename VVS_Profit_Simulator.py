@@ -67,7 +67,7 @@ minutes = best_earning_pair[0] % 60
 
 title = "With init cap %.2f USD and APR %.2f%%,\n " + \
         "best reinvest interval is every %d hour %d minutes (%d) \n" + \
-        " which yields %.2f USD profits."
+        " which yields %.2f USD profits in 1 week."
 title = title % (INITIAL_CAPITAL, APR_PERCENTAGE, hours, minutes, best_earning_pair[0], best_earning_pair[1])
 print(title)
 
