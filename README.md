@@ -1,4 +1,4 @@
-# vvs-finance-profit-simulator
+# VVS Finance Profit Simulator
 
 Script to find the best harvest (and put back) interval for VVS Finance.
 
