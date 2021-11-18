@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 class VVS_Simulator():
     def __init__(self, init_capital, apr, reinvest_interval, \
-                swap_fee_rate=0.003, reinvest_fix_cost=1.8, harvest_collect_fee=1.0, remove_LP_fee=2.0):
+                swap_fee_rate=0.003, swap_fee_rate, reinvest_fix_cost=2.3, harvest_collect_fee=1.0, remove_LP_fee=2.0):
                 #  swap_fee_rate=0.0, reinvest_fix_cost=0.0, harvest_collect_fee=0.0, remove_LP_fee=0.0):
         '''
         time unit = minute
@@ -29,7 +29,7 @@ class VVS_Simulator():
             self.reinvest()
 
     def reinvest(self):
-        earning = self.harvest - self.reinvest_fix_cost - self.harvest * self.swap_fee_rate
+        earning = self.harvest - self.reinvest_fix_cost - self.harvest * 0.5 * self.swap_fee_rate
         self.harvest = 0.0
         self.capital += earning
     
@@ -41,8 +41,8 @@ class VVS_Simulator():
         return total_earned
 
 ############ Param ############
-INITIAL_CAPITAL = 8000.0
-APR_PERCENTAGE = 2300.0
+INITIAL_CAPITAL = 100000.0
+APR_PERCENTAGE = 2000.0
 ###############################
 
 simulators = []
