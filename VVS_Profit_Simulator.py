@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 class VVS_Simulator():
     def __init__(self, init_capital, apr, reinvest_interval, \
-                swap_fee_rate=0.003, swap_fee_rate, reinvest_fix_cost=2.3, harvest_collect_fee=1.0, remove_LP_fee=2.0):
+                swap_fee_rate=0.003, reinvest_fix_cost=2.3, harvest_collect_fee=1.0, remove_LP_fee=2.0):
                 #  swap_fee_rate=0.0, reinvest_fix_cost=0.0, harvest_collect_fee=0.0, remove_LP_fee=0.0):
         '''
         time unit = minute
