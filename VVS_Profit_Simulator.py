@@ -9,7 +9,7 @@ MONTH = 30
 YEAR = 365
 REINVEST_INTERVAL_UNIT = DAY
 INITIAL_CAPITAL = 1283.0
-APR_PERCENTAGE = 31.0
+APR_PERCENTAGE = 31.49
 SIMULATION_LENGTH = YEAR
 ################################
 
@@ -77,7 +77,7 @@ best_earning_pair = max(reinvest_interval_earning_pairs, key=lambda x: x[1])
 title = "With init cap %.2f USD and APR %.2f%%,\n " + \
         "best reinvest interval is every %d days \n" + \
         " which yields %.2f USD profits in %d days."
-title = title % (INITIAL_CAPITAL, APR_PERCENTAGE, best_earning_pair[0], best_earning_pair[1], SIMULATION_LENGTH / (24*60))
+title = title % (INITIAL_CAPITAL, APR_PERCENTAGE, best_earning_pair[0], best_earning_pair[1], SIMULATION_LENGTH)
 print(title)
 
 plt.plot(reinvest_interval, earnings)
